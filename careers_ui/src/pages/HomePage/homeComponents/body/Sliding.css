@@ -1,0 +1,16 @@
+/* src/components/SlidingQuotesCarousel.css */
+
+.custom-carousel-image {
+    max-height: 400px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensure the image covers the area while maintaining aspect ratio */
+    padding: 10px;
+    border-radius: 30px;
+  }
+  
+  .custom-carousel-quote {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px;
+  }
+  

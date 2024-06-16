@@ -3,6 +3,7 @@ import { Box, ImageList, ImageListItem, ImageListItemBar, IconButton, useMediaQu
 import ListSubheader from '@mui/material/ListSubheader';
 import InfoIcon from '@mui/icons-material/Info';
 import { useTheme } from '@mui/material/styles';
+import SlidingQuotesCarousel from './Sliding';
 
 export default function TitlebarImageList() {
     const theme = useTheme();
@@ -19,6 +20,11 @@ export default function TitlebarImageList() {
 
     return (
         <Box sx={{ width: '100%', height: 'auto', overflowY: 'auto' }}>
+            <SlidingQuotesCarousel />
+            {/* video  */}
+           
+
+            {/* video end */}
             <ImageList variant="masonry" cols={getCols()} gap={8}>
                 <ImageListItem key="Subheader" cols={getCols()} style={{ height: 'auto' }}>
                 </ImageListItem>
@@ -54,9 +60,7 @@ const itemData = [
     {
         img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
         title: 'Breakfast',
-        author: '@bkristastucchio',
-        
-        
+        author: '@bkristastucchio',  
     },
     {
         img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
