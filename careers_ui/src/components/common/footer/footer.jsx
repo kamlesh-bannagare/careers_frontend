@@ -4,7 +4,7 @@ import { Facebook, Twitter, LinkedIn, Instagram } from '@mui/icons-material';
 
 const Footer = () => {
     return (
-        <Box sx={{ backgroundColor: '#2c3e50', color: 'white', py: 5 }}>
+        <Box sx={{ backgroundColor: '#3B71CA', color: 'white', py: 5 }}>
             <Container maxWidth="lg">
                 <Grid container spacing={4} justifyContent="space-between">
                     {/* Company Info */}
@@ -14,7 +14,7 @@ const Footer = () => {
                                 Contact Us
                             </Typography>
                             <Typography variant="body2" paragraph>
-                                Baner, Pune, Maharashtra, India.
+                                India.
                             </Typography>
                             <Typography variant="body2" paragraph>
                                 Email: <Link href="mailto:kamleshbannagare1@gmail.com" color="inherit" underline="hover">kamleshbannagare1@gmail.com</Link>
@@ -52,7 +52,7 @@ const Footer = () => {
                 {/* Copyright */}
                 <Box sx={{ textAlign: 'center', mt: 5 }}>
                     <Typography variant="body2">
-                        &copy; {new Date().getFullYear()} Career World. All rights reserved.
+                        &copy; {new Date().getFullYear()} The Careers World. All rights reserved.
                     </Typography>
                 </Box>
             </Container>

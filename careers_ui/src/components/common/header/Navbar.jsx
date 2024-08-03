@@ -10,6 +10,11 @@ import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import Button from '@mui/material/Button';
 
+// Import your logo image
+import logo from './the-careers-world-high-resolution-logo-transparent.png'; // Update the path accordingly
+
+
+
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
   borderRadius: theme.shape.borderRadius,
@@ -72,13 +77,17 @@ export default function SearchAppBar() {
           >
             <MenuIcon />
           </IconButton>
+
+          {/* Logo section */}
+          <Box component="img" src={logo} alt="Logo" sx={{ height: 40, mr: 2 }} />
+
           <Typography
             variant="h6"
             noWrap
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
-            Career World
+            The Careers World
           </Typography>
           <Search>
             <SearchIconWrapper>
